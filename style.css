@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #5bbf44;
+  }
+  .app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .toolbar {
+    background-color: #333;
+    padding: 25px;
+    border-radius: 10px;
+    color: #b56071;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 450px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .toolbar select {
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    font-size: 20px;
+    width: 100%;
+    max-width: 250px;
+  }
+  
+  .rate-movie-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .rate-movie-button button {
+    background-color: #ff0095;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 15px 20px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  .rate-movie-button button:hover {
+    background-color: #60c075;
+  }
+  
+  .rate-movie-button p {
+    margin-top: 20px;
+    color: #3869c5;
+  }
+  
+  .upload-button {
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: #d49c9c;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .upload-button:hover {
+    background-color: #2b4561;
+  }  
